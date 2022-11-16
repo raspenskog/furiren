@@ -38,10 +38,3 @@ for url in people_urls:
     
     # .replace För att byta stavning på "gammeldags" ord och snygga till datan
     print(result.replace('Egendom', '').replace('N:o', '').replace('Westra', 'Västra').replace('Skans-', 'Skansgatan').replace('Nygatan', 'Haga Nygata').replace('Ny-', 'Haga Nygata').replace('Landsvägs-', 'Landsvägsgatan').replace('Mellan-', 'Mellangatan'))
-
-
-# In[ ]:
-
-
-
-

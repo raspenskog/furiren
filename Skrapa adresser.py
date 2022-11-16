@@ -2,6 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 import re
 
+# Länkarna framskrapade med URL-programmet
 people_urls = [
 "https://sok.riksarkivet.se/fritext?ValdSortering=A_O&PageSize=100&Sokord=Egendom+N%3ao+59+Bergsgatan&EndastDigitaliserat=false&typAvLista=Standard&AvanceradSok=True&FacettFilter=register_facet%24Folkr%c3%a4kningar%3a%7cregister_facet%24Folkr%c3%a4kningar%2fFolkr%c3%a4kning+1880%3a&FacettState=%2fNjGwA%3ao%7caXCRbw%3ac%7c&page=1&postid=Folk_121409018&tab=post#tab",
 "https://sok.riksarkivet.se/fritext?ValdSortering=A_O&PageSize=100&Sokord=Egendom+N%3ao+59+Bergsgatan&EndastDigitaliserat=false&typAvLista=Standard&AvanceradSok=True&FacettFilter=register_facet%24Folkr%c3%a4kningar%3a%7cregister_facet%24Folkr%c3%a4kningar%2fFolkr%c3%a4kning+1880%3a&FacettState=%2fNjGwA%3ao%7caXCRbw%3ac%7c&page=2&postid=Folk_121409022&tab=post#tab",

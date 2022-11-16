@@ -39,10 +39,3 @@ for url in people_urls:
     for name_element in name_elements:
         the_name = name_element.find("h1", class_="post_title")
         print(the_name.text)
-
-
-# In[ ]:
-
-
-
-
